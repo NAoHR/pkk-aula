@@ -1,0 +1,25 @@
+.nav-main{
+    width: 100vw;
+    max-width: 100vw;
+    height: 60px;
+    /* border-bottom: 2px solid var(--lime-green); */
+}
+.nav-content{
+    width: 90%;
+    height: 100%;
+    justify-content: space-between;
+}
+.nav-perk{
+    padding: 5px;
+    height: 100%;
+}
+.npr-content{
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+@media screen and (min-width: 1200px) {
+    .nav-main{
+        width: 1200px;
+    }
+}
